@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+ul {
+  text-align: center;
+  margin: 10px;
+  list-style: none;
+}
+
+li .title {
+  color: #1975C0;
+  margin-top: 20px;
+}
+
+li p {
+  margin-bottom: 20px;
+}
+
+.button {
+  color: #FEFEFE;
+  background-color: #1975C0;
+  padding: 13px 29px;
+  border-radius: 25px;
+  border-color: #FEFEFE;
+  transition: all 0.2s;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.button:hover {
+  color: #FEFEFE;
+  background-color: #3294e2;
+}
+

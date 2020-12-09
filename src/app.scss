@@ -1,0 +1,49 @@
+$colore_scritte: #FEFEFE;
+
+$colore_principale: #1975C0;
+
+$colore_hover: #3294e2;
+
+$spaziatura: 20px;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+ul{
+    text-align: center;
+    margin: $spaziatura / 2;
+    list-style: none;
+}
+
+li .title{
+    color: $colore_principale;
+    margin-top: $spaziatura;
+}
+
+li p{
+    margin-bottom: $spaziatura;
+}
+
+.button{
+    color: $colore_scritte;
+    background-color: $colore_principale;
+    padding: 13px 29px;
+    border-radius: 25px;
+    border-color: #FEFEFE;
+    transition: all .2s;
+    font-weight: bold;
+    margin-bottom: $spaziatura;
+}
+
+.button:hover{
+    color: $colore_scritte;
+    background-color: $colore_hover;
+}
